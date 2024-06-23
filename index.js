@@ -6,7 +6,7 @@ const app = express()
 
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect('mongodb+srv://shadab:shadab@cluster0.ll8hkwp.mongodb.net/bakery?retryWrites=true&w=majority&appName=Cluster0')
+        const conn = await mongoose.connect('mongodb+srv://yourusername:yourpassword@cluster0.ll8hkwp.mongodb.net/yourdbname?retryWrites=true&w=majority&appName=Cluster0')
         if (conn) {
             console.log("Database Connected Successfully")
         }
